@@ -1,7 +1,6 @@
-def cipher(text, mode):
+def cipher(text, shift, mode):
     result = ""
-    # "3" ده المفتاح السري بتاعك
-    key = 3 if mode == 'enc' else -3
+    key = shift if mode == 'enc' else -shift
     for char in text:
         if char.isalpha():
             start = ord('A') if char.isupper() else ord('a')
@@ -10,11 +9,20 @@ def cipher(text, mode):
             result += char
     return result
 
-print("--- أداة تشفير مشروع عجينة ---")
-choice = input("عايز (1) تشفير ولا (2) فك تشفير؟ ")
-msg = input("اكتب الرسالة (بالإنجليزي): ")
+print("--- خزنة Agina المشفرة ---")
+try:
+    user_key = int(input("اكتب رقمك السري: "))
+    choice = input("عايز (1) تشفير ولا (2) فك تشفير؟ ")
+    msg = input("اكتب الرسالة: ")
+    
+    output = cipher(msg, user_key, 'enc' if choice == '1' else 'dec')
+    print("النتيجة: " + output)
 
-if choice == '1':
-    print("الرسالة المشفرة: " + cipher(msg, 'enc'))
-elif choice == '2':
-    print("الرسالة الأصلية: " + cipher(msg, 'dec'))
+    # الجزء الجديد: حفظ النتيجة في ملف vault.txt
+    with open("vault.txt", "a") as file:
+        file.write(f"Key: {user_key} | Result: {output}\n")
+    print("✅ تم حفظ النتيجة في ملف vault.txt")
+
+except ValueError:
+    print("خطأ: لازم تكتب رقم!")
+
