@@ -1,41 +1,40 @@
-# 🔐 Agina Crypt | Secure Encryption Tool
+# 🌱 Agina Project | مشروع أجينا  
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Security-Advanced-red?style=for-the-badge&logo=target" />
-  <img src="https://img.shields.io/badge/Python-Encryption-3776AB?style=for-the-badge&logo=python" />
-  <img src="https://img.shields.io/badge/Status-Protected-success?style=for-the-badge&logo=icloud" />
-</p>
+## 📖 الوصف | Description  
+مشروع متعدد الوظائف يهدف لتجربة تقنيات مختلفة في البرمجة والتحكم.  
+يحتوي على ملفات متنوعة (C, Java, Microcontroller) ويخدم كمنصة للتجارب والتطوير.  
 
 ---
 
-### 🕵️ الوصف | Description
-أداة تشفير قوية مبنية بلغة **Python** لتأمين البيانات وحمايتها. تعتمد الأداة على خوارزميات متقدمة تضمن خصوصية المعلومات وصعوبة اختراقها، وهي جزء من مشروع أمن المعلومات الخاص بي.
+## 🛠️ المكونات | Components  
+- PIC Microcontroller (إن وجد)  
+- Arduino/Embedded Boards  
+- مكتبات برمجية (C, Java)  
+- أدوات تطوير (IDE مثل MPLAB, Arduino IDE, Eclipse)  
 
 ---
 
-### 🛠️ الميزات | Features
-* **Custom Encoding:** دعم جداول ترميز مخصصة (Custom 6-bit encoding).
-* **Multi-Layer:** طبقات متعددة من التشفير لضمان أقصى حماية.
-* **Lightweight:** سكريبت سريع وسهل الاستخدام من خلال Terminal.
+## 💻 الملفات | Files  
+- `main.c` → كود بلغة C للتحكم أو التجربة.  
+- `MainActivity.java` → جزء من تطبيق Java.  
+- ملفات إضافية حسب الإصدار (V5, Vault, إلخ).  
 
 ---
 
-### 🚀 كيفية التشغيل | How to Use
-1. تأكد من تثبيت Python 3.x.
-2. قم بتحميل ملف `agina_crypt.py`.
-3. شغل الأداة عبر الأمر التالي:
-   `python agina_crypt.py`
+## ⚙️ طريقة التشغيل | How to Run  
+1. افتح المشروع في بيئة التطوير المناسبة (C أو Java).  
+2. قم بترجمة الكود باستخدام الـ Compiler المناسب.  
+3. شغل التطبيق أو حمّل الكود على المتحكم.  
+4. اتبع التعليمات الخاصة بكل ملف أو إصدار.  
 
 ---
 
-### ⚠️ ملاحظة أمنية
-تم تطوير هذه الأداة لأغراض تعليمية ولتعزيز أمن البيانات الشخصية.
+## 📡 التوسع المستقبلي | Future Expansion  
+- دمج المشاريع الفرعية في هيكل موحد.  
+- إضافة توثيق وصور للمخططات.  
+- تحسين الكود وتجميعه في مكتبات قابلة لإعادة الاستخدام.  
 
 ---
 
-<div align="center">
-  <b>Developed with 💻 & ☕ by Mahamed Eltorky</b>
-</div>
----
-### ⚖️ Legal Disclaimer
-> **Warning:** This tool is for educational purposes only. Unauthorized use of this tool on systems you do not own is illegal.
+## 📜 الترخيص | License  
+MIT License – مفتوح المصدر للاستخدام والتطوير.
