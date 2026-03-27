@@ -36,3 +36,6 @@
 <div align="center">
   <b>Developed with 💻 & ☕ by Mahamed Eltorky</b>
 </div>
+---
+### ⚖️ Legal Disclaimer
+> **Warning:** This tool is for educational purposes only. Unauthorized use of this tool on systems you do not own is illegal.
