@@ -34,6 +34,22 @@
 - إضافة توثيق وصور للمخططات.  
 - تحسين الكود وتجميعه في مكتبات قابلة لإعادة الاستخدام.  
 
+# ⚡ Mahamed Eltorky | Developer & Security Enthusiast  
+
+## 🚀 Projects  
+- [Smart Smoke Detector](link-to-repo)  
+- [Agina Project](link-to-repo)  
+- [PIC Microcontroller Projects](link-to-repo)  
+
+## 📚 Learning  
+- [Learning Notes](link-to-repo)  
+
+## 🔒 Security  
+مهتم بتطوير حلول آمنة وتجارب في مجال الأمن السيبراني.  
+
+## 📈 Latest Updates  
+- 2026-03-28: Added bilingual README to Smart Smoke Detector.  
+- 2026-03-28: Organized Agina Project with new documentation.
 ---
 
 ## 📜 الترخيص | License  
