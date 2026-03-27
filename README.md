@@ -1,12 +1,38 @@
-# 🔬 Agina Tech Lab | مختبر عجينا التقني
+# 🔐 Agina Crypt | Secure Encryption Tool
 
-مستودع مخصص لتجارب الأنظمة المدمجة (Embedded Systems) ولغة C.
-
-## 📁 محتويات المختبر:
-* **LED Control:** تجارب التحكم في الإضاءة.
-* **Timers & Interrupts:** إدارة الوقت في المعالجات.
-* **Sensors Logic:** أكواد التعامل مع الحساسات المختلفة.
+<p align="center">
+  <img src="https://img.shields.io/badge/Security-Advanced-red?style=for-the-badge&logo=target" />
+  <img src="https://img.shields.io/badge/Python-Encryption-3776AB?style=for-the-badge&logo=python" />
+  <img src="https://img.shields.io/badge/Status-Protected-success?style=for-the-badge&logo=icloud" />
+</p>
 
 ---
-> "العلم يبدأ بتجربة.. والاحتراف يبدأ بتوثيقها." 🌹
-> 
+
+### 🕵️ الوصف | Description
+أداة تشفير قوية مبنية بلغة **Python** لتأمين البيانات وحمايتها. تعتمد الأداة على خوارزميات متقدمة تضمن خصوصية المعلومات وصعوبة اختراقها، وهي جزء من مشروع أمن المعلومات الخاص بي.
+
+---
+
+### 🛠️ الميزات | Features
+* **Custom Encoding:** دعم جداول ترميز مخصصة (Custom 6-bit encoding).
+* **Multi-Layer:** طبقات متعددة من التشفير لضمان أقصى حماية.
+* **Lightweight:** سكريبت سريع وسهل الاستخدام من خلال Terminal.
+
+---
+
+### 🚀 كيفية التشغيل | How to Use
+1. تأكد من تثبيت Python 3.x.
+2. قم بتحميل ملف `agina_crypt.py`.
+3. شغل الأداة عبر الأمر التالي:
+   `python agina_crypt.py`
+
+---
+
+### ⚠️ ملاحظة أمنية
+تم تطوير هذه الأداة لأغراض تعليمية ولتعزيز أمن البيانات الشخصية.
+
+---
+
+<div align="center">
+  <b>Developed with 💻 & ☕ by Mahamed Eltorky</b>
+</div>
